@@ -1,0 +1,82 @@
+body {
+  background: rgb(255, 221, 0);
+  background-image: linear-gradient(90deg, rgb(255, 221, 0) 0%, rgb(251, 176, 52) 100%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar .nav-content {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .nav-content li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.navbar .nav-content li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.03cm;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.background-img img {
+  width: 67%;
+}
+
+.vector-img {
+  width: 48%;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 10%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.vector-img img {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin-right: -10%;
+}
+
+.content {
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: translateY(-30%);
+}
+.content h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Sacramento", cursive;
+  transform: rotate(-5deg) translateY(-50%);
+  letter-spacing: 0.03cm;
+  width: 60%;
+  text-align: center;
+  font-weight: bolder;
+}/*# sourceMappingURL=style.css.map */
